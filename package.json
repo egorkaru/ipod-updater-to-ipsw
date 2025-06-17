@@ -1,0 +1,36 @@
+{
+  "name": "ipod-updater-to-ipsw",
+  "description": "Simple command-line tool to extract ipsw files from iPod Updater.app.",
+  "version": "0.0.1",
+  "bin": {
+		"ipod-updater-to-ipsw": "./cli.cjs"
+	},
+  "type": "module",
+	"exports": {
+		"./cli.js": "./cli.cjs",
+		"./cli.cjs": "./cli.cjs",
+    "./core.js": "./core.cjs",
+    "./core.cjs": "./core.cjs",
+		"./package.json": "./package.json"
+	},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "ipod",
+    "ipsw",
+    "ipod updater",
+    "tool"
+  ],
+  "author":  {
+    "name": "Egor Rudinsky",
+    "email": "egor@egor.win",
+    "url": "https://egor.win"
+	},
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "plist": "^3.1.0"
+  }
+}
