@@ -34,7 +34,7 @@ function createManifestContent({
 	<key>DefaultColor</key>
 	<string>${defaultColor}</string>
 	<key>DisplayInAbout</key>
-	${displayInAbout ? '<false/>' : '<true/>'}${typeof aboutBoxOrdering === 'number' ? `
+	${displayInAbout ? '<true/>' : '<false/>'}${typeof aboutBoxOrdering === 'number' ? `
 	<key>aboutBoxOrdering</key>
 	<integer>${aboutBoxOrdering}</integer>` : ''}${typeof identicalToUpdaterFamily === 'number' ? `
 		<key>identicalToUpdaterFamily</key>
