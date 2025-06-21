@@ -1,7 +1,7 @@
 {
   "name": "ipod-updater-to-ipsw",
   "description": "Simple command-line tool to extract ipsw files from iPod Updater.app.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "bin": {
 		"ipod-updater-to-ipsw": "./cli.cjs"
 	},
